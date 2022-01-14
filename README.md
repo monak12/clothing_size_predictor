@@ -9,10 +9,10 @@ The CSV file contains 119218 rows of data and 4 columns which include weight, ag
 ### Data Dictionary:
 |Column|Type|Description|
 |---|---|---|---|
-|Weight | int | Weight in Kilograms (kg) range from 22 to 136 kg, modified for modeling
-|Age| float | Ages in decimal format range from 0 to 117, modified for modeling
-|Height| float | Height in centimeters (cm) and decimal format 
-|Size| object | Includes sizes XXS - XXXL, hard coded to integer values (1-7)
+|Weight | int | Weight in Kilograms (kg) range from 22 to 136 kg, modified for modeling |
+|Age| float | Ages in decimal format range from 0 to 117, modified for modeling |
+|Height| float | Height in centimeters (cm) and decimal format |
+|Size| object | Includes sizes XXS - XXXL, hard coded to integer values (1-7) |
 
 ### EDA:
 Weight is recorded in kilograms (kg), height in centimeters (cm), age spans from 0 to 117 years, and sizes include XXS, S, M, L, XL, XXL, XXXL. There are no XS. 
